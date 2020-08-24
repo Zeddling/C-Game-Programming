@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/zeddling/Documents/Projects/C++ Tutorial/build",
+  "command": "/usr/bin/c++  -I/usr/include/SDL2  -std=c++0x -g -o CMakeFiles/gameProgram.dir/classes/Chapter_1/main.cpp.o -c \"/home/zeddling/Documents/Projects/C++ Tutorial/classes/Chapter_1/main.cpp\"",
+  "file": "/home/zeddling/Documents/Projects/C++ Tutorial/classes/Chapter_1/main.cpp"
+},
+{
+  "directory": "/home/zeddling/Documents/Projects/C++ Tutorial/build",
+  "command": "/usr/bin/c++  -I/usr/include/SDL2  -std=c++0x -g -o CMakeFiles/gameProgram.dir/classes/Chapter_1/Game.cpp.o -c \"/home/zeddling/Documents/Projects/C++ Tutorial/classes/Chapter_1/Game.cpp\"",
+  "file": "/home/zeddling/Documents/Projects/C++ Tutorial/classes/Chapter_1/Game.cpp"
+}
+]

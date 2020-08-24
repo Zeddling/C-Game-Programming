@@ -1,0 +1,1 @@
+/usr/bin/c++  -std=c++0x CMakeFiles/gameProgram.dir/classes/Chapter_1/main.cpp.o CMakeFiles/gameProgram.dir/classes/Chapter_1/Game.cpp.o -o gameProgram  -lSDL2 

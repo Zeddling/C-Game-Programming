@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/zeddling/Documents/Projects/C++ Tutorial/classes/Chapter_1/Game.cpp
+Game.h
+/home/zeddling/Documents/Projects/C++ Tutorial/classes/Chapter_1/Game.h
+
+/home/zeddling/Documents/Projects/C++ Tutorial/classes/Chapter_1/Game.h
+SDL2/SDL.h
+/home/zeddling/Documents/Projects/C++ Tutorial/classes/Chapter_1/SDL2/SDL.h
+
