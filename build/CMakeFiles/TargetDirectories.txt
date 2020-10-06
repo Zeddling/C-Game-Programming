@@ -1,3 +1,4 @@
 /home/zeddling/Documents/Projects/C++ Tutorial/build/CMakeFiles/rebuild_cache.dir
 /home/zeddling/Documents/Projects/C++ Tutorial/build/CMakeFiles/edit_cache.dir
+/home/zeddling/Documents/Projects/C++ Tutorial/build/CMakeFiles/symbol_table.dir
 /home/zeddling/Documents/Projects/C++ Tutorial/build/CMakeFiles/gameProgram.dir

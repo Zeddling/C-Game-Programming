@@ -130,6 +130,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named symbol_table
+
+# Build rule for target.
+symbol_table: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 symbol_table
+.PHONY : symbol_table
+
+# fast build rule for target.
+symbol_table/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/symbol_table.dir/build.make CMakeFiles/symbol_table.dir/build
+.PHONY : symbol_table/fast
+
+#=============================================================================
 # Target rules for targets named gameProgram
 
 # Build rule for target.
@@ -196,6 +209,60 @@ classes/Chapter_1/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/gameProgram.dir/build.make CMakeFiles/gameProgram.dir/classes/Chapter_1/main.cpp.s
 .PHONY : classes/Chapter_1/main.cpp.s
 
+classes/Chapter_2/main.o: classes/Chapter_2/main.cpp.o
+
+.PHONY : classes/Chapter_2/main.o
+
+# target to build an object file
+classes/Chapter_2/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/symbol_table.dir/build.make CMakeFiles/symbol_table.dir/classes/Chapter_2/main.cpp.o
+.PHONY : classes/Chapter_2/main.cpp.o
+
+classes/Chapter_2/main.i: classes/Chapter_2/main.cpp.i
+
+.PHONY : classes/Chapter_2/main.i
+
+# target to preprocess a source file
+classes/Chapter_2/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/symbol_table.dir/build.make CMakeFiles/symbol_table.dir/classes/Chapter_2/main.cpp.i
+.PHONY : classes/Chapter_2/main.cpp.i
+
+classes/Chapter_2/main.s: classes/Chapter_2/main.cpp.s
+
+.PHONY : classes/Chapter_2/main.s
+
+# target to generate assembly for a file
+classes/Chapter_2/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/symbol_table.dir/build.make CMakeFiles/symbol_table.dir/classes/Chapter_2/main.cpp.s
+.PHONY : classes/Chapter_2/main.cpp.s
+
+classes/Chapter_2/symbol_table.o: classes/Chapter_2/symbol_table.cpp.o
+
+.PHONY : classes/Chapter_2/symbol_table.o
+
+# target to build an object file
+classes/Chapter_2/symbol_table.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/symbol_table.dir/build.make CMakeFiles/symbol_table.dir/classes/Chapter_2/symbol_table.cpp.o
+.PHONY : classes/Chapter_2/symbol_table.cpp.o
+
+classes/Chapter_2/symbol_table.i: classes/Chapter_2/symbol_table.cpp.i
+
+.PHONY : classes/Chapter_2/symbol_table.i
+
+# target to preprocess a source file
+classes/Chapter_2/symbol_table.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/symbol_table.dir/build.make CMakeFiles/symbol_table.dir/classes/Chapter_2/symbol_table.cpp.i
+.PHONY : classes/Chapter_2/symbol_table.cpp.i
+
+classes/Chapter_2/symbol_table.s: classes/Chapter_2/symbol_table.cpp.s
+
+.PHONY : classes/Chapter_2/symbol_table.s
+
+# target to generate assembly for a file
+classes/Chapter_2/symbol_table.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/symbol_table.dir/build.make CMakeFiles/symbol_table.dir/classes/Chapter_2/symbol_table.cpp.s
+.PHONY : classes/Chapter_2/symbol_table.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -205,12 +272,19 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... gameProgram"
+	@echo "... symbol_table"
 	@echo "... classes/Chapter_1/Game.o"
 	@echo "... classes/Chapter_1/Game.i"
 	@echo "... classes/Chapter_1/Game.s"
 	@echo "... classes/Chapter_1/main.o"
 	@echo "... classes/Chapter_1/main.i"
 	@echo "... classes/Chapter_1/main.s"
+	@echo "... classes/Chapter_2/main.o"
+	@echo "... classes/Chapter_2/main.i"
+	@echo "... classes/Chapter_2/main.s"
+	@echo "... classes/Chapter_2/symbol_table.o"
+	@echo "... classes/Chapter_2/symbol_table.i"
+	@echo "... classes/Chapter_2/symbol_table.s"
 .PHONY : help
 
 

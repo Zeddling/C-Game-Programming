@@ -4,6 +4,8 @@ project( gameProgram )
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++0x")
 
 add_executable(${PROJECT_NAME} "classes/Chapter_1/main.cpp" "classes/Chapter_1/Game.cpp")
+add_executable(symbol_table "classes/Chapter_2/main.cpp" "classes/Chapter_2/symbol_table.h" "classes/Chapter_2/symbol_table.cpp" "classes/Chapter_2/node.h" )
+
 
 INCLUDE(FindPkgConfig)
 

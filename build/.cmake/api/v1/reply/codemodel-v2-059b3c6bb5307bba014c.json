@@ -14,7 +14,8 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -29,7 +30,8 @@
 					"name" : "gameProgram",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -38,8 +40,15 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "gameProgram::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-gameProgram-Debug-a3658dd2c102d138cd5d.json",
+					"jsonFile" : "target-gameProgram-Debug-43568c10c903dbb9fe53.json",
 					"name" : "gameProgram",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "symbol_table::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-symbol_table-Debug-f549f5111ef2ecb1a401.json",
+					"name" : "symbol_table",
 					"projectIndex" : 0
 				}
 			]

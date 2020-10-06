@@ -1,6 +1,16 @@
 [
 {
   "directory": "/home/zeddling/Documents/Projects/C++ Tutorial/build",
+  "command": "/usr/bin/c++  -I/usr/include/SDL2  -std=c++0x -g -o CMakeFiles/symbol_table.dir/classes/Chapter_2/main.cpp.o -c \"/home/zeddling/Documents/Projects/C++ Tutorial/classes/Chapter_2/main.cpp\"",
+  "file": "/home/zeddling/Documents/Projects/C++ Tutorial/classes/Chapter_2/main.cpp"
+},
+{
+  "directory": "/home/zeddling/Documents/Projects/C++ Tutorial/build",
+  "command": "/usr/bin/c++  -I/usr/include/SDL2  -std=c++0x -g -o CMakeFiles/symbol_table.dir/classes/Chapter_2/symbol_table.cpp.o -c \"/home/zeddling/Documents/Projects/C++ Tutorial/classes/Chapter_2/symbol_table.cpp\"",
+  "file": "/home/zeddling/Documents/Projects/C++ Tutorial/classes/Chapter_2/symbol_table.cpp"
+},
+{
+  "directory": "/home/zeddling/Documents/Projects/C++ Tutorial/build",
   "command": "/usr/bin/c++  -I/usr/include/SDL2  -std=c++0x -g -o CMakeFiles/gameProgram.dir/classes/Chapter_1/main.cpp.o -c \"/home/zeddling/Documents/Projects/C++ Tutorial/classes/Chapter_1/main.cpp\"",
   "file": "/home/zeddling/Documents/Projects/C++ Tutorial/classes/Chapter_1/main.cpp"
 },

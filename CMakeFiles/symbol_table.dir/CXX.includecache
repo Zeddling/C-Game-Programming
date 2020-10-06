@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/zeddling/Documents/Projects/C++ Tutorial/classes/Chapter_2/main.cpp
+symbol_table.h
+/home/zeddling/Documents/Projects/C++ Tutorial/classes/Chapter_2/symbol_table.h
+
+/home/zeddling/Documents/Projects/C++ Tutorial/classes/Chapter_2/node.h
+string
+-
+iostream
+-
+
+/home/zeddling/Documents/Projects/C++ Tutorial/classes/Chapter_2/symbol_table.cpp
+symbol_table.h
+/home/zeddling/Documents/Projects/C++ Tutorial/classes/Chapter_2/symbol_table.h
+
+/home/zeddling/Documents/Projects/C++ Tutorial/classes/Chapter_2/symbol_table.h
+node.h
+/home/zeddling/Documents/Projects/C++ Tutorial/classes/Chapter_2/node.h
+

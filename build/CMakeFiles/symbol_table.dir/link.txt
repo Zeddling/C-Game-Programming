@@ -1,0 +1,1 @@
+/usr/bin/c++  -std=c++0x -g CMakeFiles/symbol_table.dir/classes/Chapter_2/main.cpp.o CMakeFiles/symbol_table.dir/classes/Chapter_2/symbol_table.cpp.o -o symbol_table 
